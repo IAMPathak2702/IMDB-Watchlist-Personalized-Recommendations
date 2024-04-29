@@ -25,7 +25,16 @@ select = st.selectbox(label="Select a book", options=df['Book-Title'], index=0)
 
 if select:
     q = df.index[df['Book-Title'] == select][0]
-    st.image(df.loc[q, 'Image-URL-S'])
+    col1, col2 = st.columns(2)
+    col1.image(df.loc[q, 'Image-URL-S'],width = 200)
+    
+    col2.markdown(
+        f'''
+        # {df.loc[q, 'Book-Title']}
+        ## Author :- {df.loc[q, 'Book-Author']} 
+        ###    Year:{df.loc[q, 'Year-Of-Publication']}
+        '''
+    )
 
 # Display the images in a grid layout
 num_rows = 5
