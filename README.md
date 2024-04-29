@@ -76,3 +76,4 @@ This project aims to develop a book recommendation system that assists users in 
 
 
 ##Project Snapshots
+<img src=https://raw.githubusercontent.com/IAMPathak2702/Read-Books-Personalized-Recommendations/main/Extras/images/Popular_Books_streamlit.png, alt="Popular_Books">
