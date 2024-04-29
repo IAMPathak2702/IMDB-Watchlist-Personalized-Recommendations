@@ -1,5 +1,5 @@
 # Book Recommendation System 
-# Book Recommendation System
+
 
 # Overview
 This project aims to develop a book recommendation system that assists users in discovering new books based on their preferences. The system utilizes various recommendation techniques including popularity-based, content-based, collaborative filtering, and hybrid approaches to provide personalized recommendations.
